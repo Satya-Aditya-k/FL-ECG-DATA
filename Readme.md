@@ -23,7 +23,7 @@ Repo: https://github.com/Satya-Aditya-k/FL-ECG-DATA/tree/main
 - **Modular preprocessing** — resampling, denoising, normalization, time/frequency features.  
 - **Federated algorithms** — FedAvg, FedProx, FedDyn (and configurable variants).  
 - **Evaluation suite** — Accuracy, F1, Sensitivity, Specificity and convergence analysis.  
-- **Notebooks & scripts** — reproducible workflows for preprocessing → training → evaluation.
+- **Notebooks & scripts** — reproducible workflows for simulation → training → evaluation.
 
 ---
 
