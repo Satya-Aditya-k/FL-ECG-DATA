@@ -3,7 +3,7 @@
 [![Repo](https://img.shields.io/badge/repo-FL--ECG--DATA-blue)](https://github.com/Satya-Aditya-k/FL-ECG-DATA/tree/main) ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
 > **Privacy-preserving federated learning for 12-lead ECG classification across heterogeneous devices and sites.**  
-> Simulates non-IID ECG clients, harmonizes heterogeneous signals, and evaluates federated strategies vs. centralized baselines.
+> Simulates different variants, IID ,non-IID ECG clients and also based on scaling(centralized/distributed scaling of data), harmonizes heterogeneous signals, and evaluates federated strategies vs. centralized baselines.
 
 ---
 
