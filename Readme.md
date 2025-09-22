@@ -10,6 +10,10 @@
 ## 🔎 Short abstract
 This repository provides code, notebooks and scripts to experiment with federated learning (FL) on multi-source 12-lead ECG datasets. It focuses on realistic heterogeneity (different sampling rates, noise, lengths and class distributions) and compares FL algorithms (FedAvg and heterogeneity-aware variants such as FedProx / FedDyn) against centralized baselines using clinically relevant metrics.
 
+### 🔁 PRNA - Feature generation for FL simulation
+
+The `PRNA/` folder contains the scripts that generate the feature datasets consumed by the notebooks for Federated Learning simulation.  
+
 Repo: https://github.com/Satya-Aditya-k/FL-ECG-DATA/tree/main
 
 ---
