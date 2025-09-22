@@ -1,14 +1,40 @@
-Federated Learning for Heterogeneous ECG Data
+# Federated Learning for Heterogeneous ECG Data
 
-Privacy-preserving federated learning for 12-lead ECG classification across heterogeneous devices and sites.
-This repo implements preprocessing, simulation of non-IID ECG clients, and federated training (FedAvg + heterogeneity-aware variants) to evaluate trade-offs between privacy and clinical performance. 
+[![Repo](https://img.shields.io/badge/repo-FL--ECG--DATA-blue)](https://github.com/Satya-Aditya-k/FL-ECG-DATA/tree/main) ![Python](https://img.shields.io/badge/python-3.8%2B-brightgreen) ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-Key features
+> **Privacy-preserving federated learning for 12-lead ECG classification across heterogeneous devices and sites.**  
+> Simulates non-IID ECG clients, harmonizes heterogeneous signals, and evaluates federated strategies vs. centralized baselines.
 
-Simulation of realistic, heterogeneous ECG nodes from public datasets.
+---
 
-Modular preprocessing: resampling, denoising, normalization, feature extraction.
+## 🔎 Short abstract
+This repository provides code, notebooks and scripts to experiment with federated learning (FL) on multi-source 12-lead ECG datasets. It focuses on realistic heterogeneity (different sampling rates, noise, lengths and class distributions) and compares FL algorithms (FedAvg and heterogeneity-aware variants such as FedProx / FedDyn) against centralized baselines using clinically relevant metrics.
 
-Federated training strategies (FedAvg, FedProx/FedDyn variants) and centralized baseline.
+Repo: https://github.com/Satya-Aditya-k/FL-ECG-DATA/tree/main
 
-Evaluation with clinical metrics (Accuracy, F1, Sensitivity, Specificity) and convergence analysis.
+---
+
+## ✨ Key features
+- **Heterogeneous client simulation** — build realistic non-IID nodes from public ECG collections.  
+- **Modular preprocessing** — resampling, denoising, normalization, time/frequency features.  
+- **Federated algorithms** — FedAvg, FedProx, FedDyn (and configurable variants).  
+- **Evaluation suite** — Accuracy, F1, Sensitivity, Specificity and convergence analysis.  
+- **Notebooks & scripts** — reproducible workflows for preprocessing → training → evaluation.
+
+---
+
+## 🚀 Quick start
+
+```bash
+# 1. clone
+git clone https://github.com/Satya-Aditya-k/FL-ECG-DATA.git
+cd FL-ECG-DATA
+
+# 2. create env and install deps (example)
+python -m venv .venv
+# on Windows PowerShell:
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+
+# 3. open main notebook for an end-to-end run
+jupyter lab notebooks/
